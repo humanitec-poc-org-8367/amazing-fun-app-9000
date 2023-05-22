@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "amazing-fun-app-9000"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-05"
+    "humanitec.com/appId": "amazing-fun-app-9000"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
